@@ -1,12 +1,14 @@
 #include<iostream>
-#define bug1 l11lll1l1
-#define bug2 l11lll1ll
-#define bug3 ll1lll1l1
+
+#define b-1 bdddbb
+#define b+2 bbddbd
+
+#define b dbddbb
 int main(){
     int a=753,d,o,n,m;
     long long c=0x7368656c646f6e;
     char*b=(char*)&c-((a & 0xF)*(0xad&0xf>>8<<((5^5)&(~(1<<3)|(7&7)))))+2;
-    char x[] ={(*(--b)-a%67),(*(b-1)+a%14),(*(b+2)-a%37),(*(++b)++-a%61),(*((++++b)--)+a%19),(*(b)-a%44)};
+    char x[] ={(*(--dbddbb)-a%67),(*(dbddbb-1)+a%14),(*(dbddbb+2)-a%37),(*(++dbddbb)++-a%61),(*((++++dbddbb)--)+a%19),(*(dbddbb)-a%44)};
     void*labels[]={&&l11lll1ll,&&end,&&ll1lll1l1,&&l11lll1l1};
     goto*labels[0b0011];
     ll1lll1l1:
